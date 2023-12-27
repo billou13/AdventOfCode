@@ -17,7 +17,7 @@ public abstract class DayOne<T> : IPuzzle
     public void Execute()
     {
         int sum = 0;
-        using (var stream = new StreamReader(@"Assets\DayOne.txt"))
+        using (var stream = new StreamReader(@"Assets\Day01.txt"))
         {
             while (!stream.EndOfStream)
             {

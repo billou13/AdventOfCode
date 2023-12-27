@@ -8,7 +8,7 @@
             "preLaunchTask": "build",
             "program": "${workspaceFolder}/AdventOfCode.ConsoleApp/bin/Debug/net8.0/AdventOfCode.ConsoleApp.dll",
             "args": [
-                "DayOnePartTwo"
+                "DayTwoPartTwo"
             ],
             "cwd": "${workspaceFolder}/AdventOfCode.ConsoleApp",
             "console": "internalConsole",
