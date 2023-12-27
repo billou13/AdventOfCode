@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch ConsoleApp",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/AdventOfCode.ConsoleApp/bin/Debug/net8.0/AdventOfCode.ConsoleApp.dll",
+            "args": [
+                "DayOnePartTwo"
+            ],
+            "cwd": "${workspaceFolder}/AdventOfCode.ConsoleApp",
+            "console": "internalConsole",
+            "env": {
+                "DOTNET_ENVIRONMENT": "Development"
+            },
+            "stopAtEntry": false
+        }
+    ]
+}
